@@ -5,13 +5,13 @@
 ```haskell
 stInteger :: State Integer Integer
 stInteger = do modify (+1)
-							 a <- get
-							 return a
+	 a <- get
+	 return a
 
 stString :: State String String
 stString = do modify (++"1")
-							b <- get
-							return b
+	b <- get
+	return b
 ```
 
 ```haskell
@@ -35,14 +35,14 @@ GHCi> evalState stString "0"
 
 ```haskell
 stComb :: StateT Integer -- внешняя монада (со второй строкой вместе)
-								(StateT String Identity) -- внутренняя монада
-								(Integer, String)
+	(StateT String Identity) -- внутренняя монада
+	(Integer, String)
 
 stComb = do modify (+1) -- к внешней монаде StateT Integer ..
-						lift $ modify (++"1") -- к внутренней монаде State String
-						a <- get -- к внешней
-						b <- lift $ get -- к внутренней
-						return (a,b)
+	lift $ modify (++"1") -- к внутренней монаде State String
+	a <- get -- к внешней
+	b <- lift $ get -- к внутренней
+	return (a,b)
 ```
 
 `lift` нужен, чтобы поднять вычисление из внутренней монады на внешнюю. Сколько `lift` написал - настолько глубока твоя монада.
@@ -294,10 +294,10 @@ Just 3
 
 Про библиотеки.
 
-![Снимок экрана от 2021-12-24 00-13-08.png](28Transformers%20cf66598d282841cfac4b9e54c305203b/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_%D0%BE%D1%82_2021-12-24_00-13-08.png)
+![1](trans1.png)
 
 ### Что во что вкладывать?
 
 Если нам нужна функциональность `Except` и `State`, то есть наша монада должна быть представителем `MonadError` и `MonadState` то мы должны применить трансформер `ErrorT` к монаде  `State` или же трансформер `StateT` к `Except`? Решение зависит от того, какой в точности семантики мы ожидаем от комбинированной монады.
 
-![Снимок экрана от 2021-12-24 00-17-59.png](28Transformers%20cf66598d282841cfac4b9e54c305203b/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_%D0%BE%D1%82_2021-12-24_00-17-59.png)
+![2](trans2.png)
