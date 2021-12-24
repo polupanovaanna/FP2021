@@ -2,4 +2,4 @@
 
 ## Напоминание
 
-![](https://ibb.co/rHK4nnD)
+![alt text](https://ibb.co/rHK4nnD)
