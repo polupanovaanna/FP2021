@@ -2,4 +2,4 @@
 
 ## Напоминание
 
-![alt text](https://ibb.co/rHK4nnD)
+![alt text](https://wampi.ru/image/RasRJ7l)
