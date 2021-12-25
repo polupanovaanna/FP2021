@@ -86,11 +86,11 @@
 
 [20. Класс типов MonadFail, его история и представители](https://github.com/polupanovaanna/FP2021/blob/Vyacheslav_Shabes/haskell20task.pdf)
 
-[21. Стандартные монады: Maybe и списки.]()
+[21. Стандартные монады: Maybe и списки.](https://github.com/polupanovaanna/FP2021/blob/Vyacheslav_Shabes/haskell21task.pdf)
 
 [22. Ввод-вывод в чистых языках. Монада IO. Взаимодействие с файловой системой](https://github.com/polupanovaanna/FP2021/blob/main/Haskell%2022.md)
 
-[23-26. Монада Reader, Writer, State, Except]()
+[23-26. Монада Reader, Writer, State, Except](https://github.com/polupanovaanna/FP2021/blob/main/23_26.pdf)
 
 [27. Мультипараметрические классы типов. Роль классов MonadReader, MonadWriter, MonadState и MonadError в mtl.](https://github.com/polupanovaanna/FP2021/blob/Vyacheslav_Shabes/27.%20%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B%20%D1%82%D0%B8%D0%BF%D0%BE%D0%B2.md)
 
