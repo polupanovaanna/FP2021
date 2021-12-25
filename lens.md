@@ -131,3 +131,59 @@ over lns fn s = runIdentity $ lns (Identity . fn) s
 set :: Lens s a -> a -> s -> s
 set lns a s = over lns (const a) s
 ```
+
+## Призмы
+Призмы — это инструмент двойственный к линзам. Они
+используются для типов сумм, как линзы — для типов
+произведений.
+
+Призма выбирает одну из ветвей типа суммы или терпит
+неудачу. Например,
+
+```_Left :: Prism' (Either a b) a```
+
+```haskell
+--залезаем в Either
+GHCi> preview _Left (Left "Hello")
+Just "Hello"
+GHCi> preview _Right (Left "Hello")
+Nothing
+GHCi> review _Left "Hello"
+Left "Hello"
+
+preview :: Prism' s a -> s -> Maybe a
+review :: Prism' s a -> a -> s
+```
+## Призма для списков
+```haskell
+_Cons :: Prism' [a] (a, [a])
+
+GHCi> [1,2,3] ^? _Cons --^? - review?
+Just (1,[2,3])
+GHCi> [] ^? _Cons
+Nothing
+```
+
+## Композиции
+Можно делать композицию линзы и призмы:
+```haskell
+GHCi> Left (7,8,9) ^? _Left . _2
+Just 8
+GHCi> (Left 7,Left 8,Right "Hello") ^? _3 . _Right
+Just "Hello"
+GHCi> (Left 7,Left 8,Right "Hello") ^? _3 . _Left
+Nothing
+```
+Композиция линз — линза, композиция призм — призма. А перекрестные композиции — это ```Traversal```.
+
+![alt text](https://ie.wampi.ru/2021/12/25/photo_2021-12-25_14-27-14.jpg)
+
+Далее, что-то странное, хорошо написанное у Москвина.
+
+![alt text](https://ie.wampi.ru/2021/12/25/as.jpg)
+
+![alt text](https://ie.wampi.ru/2021/12/25/qw.jpg)
+
+![alt text](https://ie.wampi.ru/2021/12/25/fg.jpg)
+
+![alt text](https://ie.wampi.ru/2021/12/25/vgf.jpg)
