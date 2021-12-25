@@ -15,7 +15,7 @@
 
 Решения:
 
-![alt text](https://ie.wampi.ru/2021/12/24/18.5.png)
+![alt text](https://wampi.ru/image/RaBmkQE)
 
 В третьем примере мы расширяем контекст.
 
