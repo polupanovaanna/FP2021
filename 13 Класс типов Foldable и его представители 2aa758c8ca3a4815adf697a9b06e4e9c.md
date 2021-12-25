@@ -99,4 +99,4 @@ class Foldable t where
 
 **Законы Foldable**
 
-![Снимок экрана 2021-12-25 в 17.03.21.png](13%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81%20%D1%82%D0%B8%D0%BF%D0%BE%D0%B2%20Foldable%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D0%B8%202aa758c8ca3a4815adf697a9b06e4e9c/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-12-25_%D0%B2_17.03.21.png)
+![Снимок экрана 2021-12-25 в 17.03.21.png](https://github.com/polupanovaanna/FP2021/blob/main/Снимок_экрана_2021-12-25_в_17.03.21.png)
