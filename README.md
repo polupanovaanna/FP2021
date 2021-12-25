@@ -42,7 +42,7 @@
 
 [21. Катаморфизмы](https://github.com/polupanovaanna/FP2021/blob/main/21.pdf)
 
-[22. Анаморфизмы и гилеморфизмы](https://github.com/polupanovaanna/FP2021/blob/main/21.pdf)
+[22. Анаморфизмы и гилеморфизмы](https://github.com/polupanovaanna/FP2021/blob/main/22.pdf)
 
 [23. Зипперы (молнии). Контексты с дыркой.](https://github.com/polupanovaanna/FP2021/blob/main/23.%20%D0%97%D0%B8%D0%BF%D0%BF%D0%B5%D1%80%D1%8B%20(%D0%BC%D0%BE%D0%BB%D0%BD%D0%B8%D0%B8).md)
 
