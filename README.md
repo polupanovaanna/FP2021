@@ -72,7 +72,7 @@
 
 [13. Класс типов Foldable и его представители.](https://github.com/polupanovaanna/FP2021/blob/main/13%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81%20%D1%82%D0%B8%D0%BF%D0%BE%D0%B2%20Foldable%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D0%B8%202aa758c8ca3a4815adf697a9b06e4e9c.md)
 
-[14. Класс типов Functor и его представители.]()
+[14. Класс типов Functor и его представители.](https://github.com/polupanovaanna/FP2021/blob/main/14%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81%20%D1%82%D0%B8%D0%BF%D0%BE%D0%B2%20Functor%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D0%B8.md)
 
 [15. Класс типов Applicative и его представители]()
 
