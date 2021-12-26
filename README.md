@@ -1,6 +1,8 @@
 # FP2021
 
-[CheatSheat с базовыми понятиями](https://www.notion.so/e6f6a80f752e44fb88d6810f4148bd8b)
+[CheatSheat с базовыми понятиями](https://tough-shaker-f43.notion.site/e6f6a80f752e44fb88d6810f4148bd8b)
+
+[Основные сигнатуры](https://github.com/polupanovaanna/FP2021/blob/main/Signatures.md)
 
 # Навигация по билетам:
 
@@ -42,7 +44,7 @@
 
 [21. Катаморфизмы](https://github.com/polupanovaanna/FP2021/blob/main/21.pdf)
 
-[22. Анаморфизмы и гилеморфизмы](https://github.com/polupanovaanna/FP2021/blob/main/21.pdf)
+[22. Анаморфизмы и гилеморфизмы](https://github.com/polupanovaanna/FP2021/blob/main/22.pdf)
 
 [23. Зипперы (молнии). Контексты с дыркой.](https://github.com/polupanovaanna/FP2021/blob/main/23.%20%D0%97%D0%B8%D0%BF%D0%BF%D0%B5%D1%80%D1%8B%20(%D0%BC%D0%BE%D0%BB%D0%BD%D0%B8%D0%B8).md)
 
@@ -72,25 +74,27 @@
 
 [13. Класс типов Foldable и его представители.](https://github.com/polupanovaanna/FP2021/blob/main/13%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81%20%D1%82%D0%B8%D0%BF%D0%BE%D0%B2%20Foldable%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D0%B8%202aa758c8ca3a4815adf697a9b06e4e9c.md)
 
-[14. Класс типов Functor и его представители.]()
+[14. Класс типов Functor и его представители.](https://github.com/polupanovaanna/FP2021/blob/main/14%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81%20%D1%82%D0%B8%D0%BF%D0%BE%D0%B2%20Functor%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D0%B8.md)
 
-[15. Класс типов Applicative и его представители]()
+[15. Класс типов Applicative и его представители](https://github.com/polupanovaanna/FP2021/blob/main/15%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81%20%D1%82%D0%B8%D0%BF%D0%BE%D0%B2%20Applicative%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D0%B8.md)
 
 [16. Классы типов Alternative и MonadPlus и их представители.](https://github.com/polupanovaanna/FP2021/blob/Gosha/16.Alternative_MonadPlus.md)
 
 [17. Аппликативные парсеры.](https://github.com/polupanovaanna/FP2021/blob/Kirill/Haskell%2017.md)
 
-[18. Класс типов Traversable и его представители.]()
+[18. Класс типов Traversable и его представители.](https://github.com/polupanovaanna/FP2021/blob/main/18-Traversible.md)
 
 [19. Монады. Класс типов Monad. Законы для монад. do-нотация.](https://github.com/polupanovaanna/FP2021/blob/Vyacheslav_Shabes/haskell19task.pdf)
 
 [20. Класс типов MonadFail, его история и представители](https://github.com/polupanovaanna/FP2021/blob/Vyacheslav_Shabes/haskell20task.pdf)
 
-[21. Стандартные монады: Maybe и списки.]()
+[21. Стандартные монады: Maybe и списки.](https://github.com/polupanovaanna/FP2021/blob/Vyacheslav_Shabes/haskell21task.pdf) 
+
+(Если у вас останется время перед ответом, советую посмотреть в [СheatSheat](https://tough-shaker-f43.notion.site/e6f6a80f752e44fb88d6810f4148bd8b), там очень подробно расписаны монады)
 
 [22. Ввод-вывод в чистых языках. Монада IO. Взаимодействие с файловой системой](https://github.com/polupanovaanna/FP2021/blob/main/Haskell%2022.md)
 
-[23-26. Монада Reader, Writer, State, Except]()
+[23-26. Монада Reader, Writer, State, Except](https://github.com/polupanovaanna/FP2021/blob/main/23_26.pdf)
 
 [27. Мультипараметрические классы типов. Роль классов MonadReader, MonadWriter, MonadState и MonadError в mtl.](https://github.com/polupanovaanna/FP2021/blob/Vyacheslav_Shabes/27.%20%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B%20%D1%82%D0%B8%D0%BF%D0%BE%D0%B2.md)
 
