@@ -1,6 +1,6 @@
 # Основные сигнатуры и законы (Денис Шестаков)
 
-```
+```haskell
 foldr :: (a -> b -> b) -> b -> [a] -> b
 foldr f ini [] = ini
 foldr f ini (x:xs) = x `f` (foldr f ini xs)
