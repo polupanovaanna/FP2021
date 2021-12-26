@@ -80,13 +80,15 @@
 
 [17. Аппликативные парсеры.](https://github.com/polupanovaanna/FP2021/blob/Kirill/Haskell%2017.md)
 
-[18. Класс типов Traversable и его представители.]()
+[18. Класс типов Traversable и его представители.](https://github.com/polupanovaanna/FP2021/blob/main/18-Traversible.md)
 
 [19. Монады. Класс типов Monad. Законы для монад. do-нотация.](https://github.com/polupanovaanna/FP2021/blob/Vyacheslav_Shabes/haskell19task.pdf)
 
 [20. Класс типов MonadFail, его история и представители](https://github.com/polupanovaanna/FP2021/blob/Vyacheslav_Shabes/haskell20task.pdf)
 
-[21. Стандартные монады: Maybe и списки.](https://github.com/polupanovaanna/FP2021/blob/Vyacheslav_Shabes/haskell21task.pdf)
+[21. Стандартные монады: Maybe и списки.](https://github.com/polupanovaanna/FP2021/blob/Vyacheslav_Shabes/haskell21task.pdf) 
+
+(Если у вас останется время перед ответом, советую посмотреть в [СheatSheat](https://tough-shaker-f43.notion.site/e6f6a80f752e44fb88d6810f4148bd8b), там очень подробно расписаны монады)
 
 [22. Ввод-вывод в чистых языках. Монада IO. Взаимодействие с файловой системой](https://github.com/polupanovaanna/FP2021/blob/main/Haskell%2022.md)
 
