@@ -2,6 +2,8 @@
 
 [CheatSheat с базовыми понятиями](https://tough-shaker-f43.notion.site/e6f6a80f752e44fb88d6810f4148bd8b)
 
+[Основные сигнатуры](https://github.com/polupanovaanna/FP2021/blob/main/Signatures.md)
+
 # Навигация по билетам:
 
 ## Теория:
