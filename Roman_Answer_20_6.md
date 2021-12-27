@@ -61,7 +61,42 @@ Tree = λA. µX. 1 + A ∗ X
 
 ## реализация на хаскелле
 
-TODO если останется время
+Зачем всё это заводилось
+
+```haskell
+newtype Fix f = In (f (Fix f))
+```
+
+Теперь задаём какой-нибудь рекурсивный тип без рекурсии
+
+```haskell
+data N x = Z | S x
+type Nat = Fix N
+
+instance Functor N where
+fmap g Z = Z
+fmap g (S x) = S (g x)
+```
+
+Теперь посмотрим на него без Fix и In
+
+```haskell
+Z :: N x
+S Z :: N (N x)
+S (S Z) :: N (N (N x))
+```
+
+а теперь избавимся от расширяемости
+
+```haskell
+Z :: N (Fix N) -- в частности
+In Z :: Fix N
+S (In Z) :: N (Fix N)
+In (S (In Z)) :: Fix N
+In (S (In (S (In Z)))) :: Fix N
+```
+
+Дальше это позволит задать катаморфизмы и анаморфизмы, но это уже совсем другой билет.
 
 # Билет 6. Объявления type и newtype. Метки полей.
 
